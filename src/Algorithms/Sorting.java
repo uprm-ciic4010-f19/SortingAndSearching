@@ -1,7 +1,11 @@
 package Algorithms;
 
-public class Sorting {
+import java.util.Comparator;
 
+public class Sorting {
+	
+
+	
 	public static void SelectionSort(int[] A) {
 		for (int i = 0; i < A.length; i++) {
 			int minIndex = i;
