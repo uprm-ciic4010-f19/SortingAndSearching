@@ -19,12 +19,16 @@ public class Main {
 		
 		System.out.println("---------");
 		
-		Sorting.SelectionSort(intArray);
+		Sorting.MergeSort(intArray);
 		
 		for (int i = 0; i < intArray.length; i++) {
 			System.out.println(intArray[i]);
 		}
+		
+		//Binary Search Example
+		int pos = Sorting.internalBinarySearch(intArray, 0, 9, intArray[5]);
+		System.out.println("Position: " + pos);
+		
 
 	}
-
 }
